@@ -1,0 +1,2 @@
+rm_conffile /etc/sysctl.d/protect-links.conf 2:3.3.16-1ubuntu1~
+rm_conffile /etc/sysctl.d/10-link-restrictions.conf 2:3.3.16-1ubuntu1~

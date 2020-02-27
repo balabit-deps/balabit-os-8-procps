@@ -1,0 +1,19 @@
+Index: procps-3.3.16-1ubuntu1/sysctl.c
+===================================================================
+--- procps-3.3.16-1ubuntu1.orig/sysctl.c
++++ procps-3.3.16-1ubuntu1/sysctl.c
+@@ -457,10 +457,13 @@
+ 			}
+ 			break;
+ 		case EPERM:
+-		case EROFS:
+ 		case EACCES:
+ 			xwarnx(_("permission denied on key \"%s\"%s"), outname, (ignore_failure?_(", ignoring"):""));
+ 			break;
++		case EROFS:
++			xwarn(_("setting key \"%s\""), outname);
++			rc = 0;
++			break;
+ 		default:
+ 			xwarn(_("setting key \"%s\"%s"), outname, (ignore_failure?_(", ignoring"):""));
+ 			break;
