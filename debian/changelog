@@ -1,3 +1,9 @@
+procps (2:3.3.16-1ubuntu2.1) focal; urgency=medium
+
+  * Address slowness and crashes with large or unlimited stack limits (LP: #1874824)
+
+ -- William 'jawn-smith' Wilson <william.wilson@canonical.com>  Wed, 24 Mar 2021 13:51:32 -0500
+
 procps (2:3.3.16-1ubuntu2) focal; urgency=medium
 
   * Fix libprocps.so link target to point to the library we actually ship.

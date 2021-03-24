@@ -8,3 +8,4 @@ pmap_test
 ignore_eaccess.patch
 ignore_erofs.patch
 ps_checks
+stack_limit
