@@ -1,3 +1,12 @@
+procps (2:3.3.16-1ubuntu2.2) focal; urgency=medium
+
+  * d/p/ignore_eaccess.patch
+    - Fix conflict with 7af88da3 and adjust logic (LP: #1903351)
+  * d/p/ignore_erofs.patch
+    - Fix conflict with 7af88da3 and adjust logic (LP: #1903351)
+
+ -- Brian Murray <brian@ubuntu.com>  Fri, 28 May 2021 10:27:30 -0700
+
 procps (2:3.3.16-1ubuntu2.1) focal; urgency=medium
 
   * Address slowness and crashes with large or unlimited stack limits (LP: #1874824)
