@@ -1,3 +1,10 @@
+procps (2:3.3.16-1ubuntu2.3) focal; urgency=medium
+
+  * Fixes version output of utilities (LP: #1917148)
+    - d/p/fix_version.patch
+
+ -- Kellen Renshaw <kellen.renshaw@canonical.com>  Thu, 09 Sep 2021 08:59:24 -0400
+
 procps (2:3.3.16-1ubuntu2.2) focal; urgency=medium
 
   * d/p/ignore_eaccess.patch

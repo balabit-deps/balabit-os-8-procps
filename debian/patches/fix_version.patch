@@ -1,0 +1,14 @@
+Description: programs report version correctly
+ Adds .tarball-version file to allow the programs to properly report their version.
+Author: Craig Small <csmall@debian.org>
+Origin: backport
+Bug: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=960810
+Bug-Ubuntu: https://launchpad.net/bugs/1917148
+Applied-Upstream: 2:3.3.16-5
+Last-Update: 2021-09-08
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- /dev/null
++++ b/.tarball-version
+@@ -0,0 +1 @@
++3.3.16
