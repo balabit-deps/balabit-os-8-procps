@@ -10,3 +10,4 @@ ignore_erofs.patch
 ps_checks
 stack_limit
 fix_version.patch
+CVE-2023-4016.patch
